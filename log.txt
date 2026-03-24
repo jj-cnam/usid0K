@@ -1,1 +1,3 @@
 docker cp links.csv postgre_db:/tmp/links.csv
+docker exec -it postgres_db psql -U admin -d MEDAS -f tmp/links.sql
+docker exec -it postgres_db psql -U admin -d MEDAS -f tmp/links.sql
