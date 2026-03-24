@@ -1,0 +1,1 @@
+docker cp links.csv postgre_db:/tmp/links.csv
